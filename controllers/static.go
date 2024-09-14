@@ -29,7 +29,7 @@ func FAQ(tpl Template) http.HandlerFunc {
 			Answer:   `Email us - <a href="mailto:support@lenslocked.com">support@lenslocked.com</a>`,
 		},
 		{
-			Question: "Where is your office?",
+			Question: "Where is your office located?",
 			Answer:   "Our entire team is remote!",
 		},
 	}
