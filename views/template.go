@@ -10,8 +10,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/csrf"
-	"github.com/joncalhoun/lenslocked/context"
-	"github.com/joncalhoun/lenslocked/models"
+	"github.com/rk9595/photoSharingApp/context"
+	"github.com/rk9595/photoSharingApp/models"
 )
 
 func Must(t Template, err error) Template {
